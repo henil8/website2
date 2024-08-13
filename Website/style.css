@@ -1,0 +1,519 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+ width:100%;
+ height: 820px;
+ border:1px solid black;
+ background-image: url('img/travel1.jpg');
+ background-position:bottom;
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-position:bottom;
+}
+.navbar{
+    width:100%;
+    height:100px;
+    background-image: url('img/nav.jpg');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width:104px;
+     border-top-right-radius:  40%;
+     border-bottom-right-radius: 40%;
+} 
+.ulli{
+    width:60%;
+
+}
+.ulli ul{
+         
+     display: flex;
+    list-style-type: none;
+    
+}
+.ulli ul li{
+      width:30%;
+     font-size: 25px;
+     
+}
+.ulli ul li a{
+    text-decoration: none;
+    color: black;
+}
+.ulli ul li a:hover{
+    border:1px solid black;
+    background-color: rgb(110, 223, 237);
+    width:50%;
+    color: black;
+    border-radius: 50%;
+    padding:10px;
+}
+.btn{
+    width:120px;
+    height:40px;
+    border-radius: 50px;
+    margin-right: 30pxs;
+    background-position: center;
+    background-color: rgb(212, 130, 71);
+}
+.btn:hover{
+    background:none;
+  
+}
+.button{
+    border: 3px solid black;
+    width:325px;
+    height:80px;
+    background: none;
+    margin-left:38%;
+    margin-top:50px ;
+    background-size: 20px;
+    padding:10px;
+    border-radius: 50px;
+    
+}
+.button:hover{
+    background: none;
+    color: chocolate;
+    cursor: pointer ;
+    
+}
+
+.p1{
+    font-size:50px;
+    font-weight: bold;
+    margin-top:200px;
+    
+}
+#Destination,
+#About,
+#Contact{
+    height: 700px;
+}
+#TravellingResources{
+    height:1000px;
+}
+#Destination{
+  background-image: url('img/Destination2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* #About{
+    background-image:url('About.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+} */
+/* Section styling */
+#About {
+    background-image: url('img/About.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff; /* Text color */
+}
+
+/* Container styling */
+.container1 {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+}
+
+/* Heading styling */
+#About h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+#About p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Hover effect for the heading */
+#About h1:hover {
+    color: #ffd700; /* Change color on hover */
+    transform: scale(1.05); /* Zoom effect on hover */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+#Contact{
+    background-image:url('img/Contact.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* Section styling */
+/* #Contact {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+} */
+
+/* Container styling */
+#Contact .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+#Contact h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Form styling */
+#Contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Contact form label {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+#Contact form input[type="text"],
+#Contact form input[type="email"],
+#Contact form textarea {
+    width: calc(100% - 20px);
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#Contact form textarea {
+    resize: vertical;
+}
+
+#Contact form button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Contact form button:hover {
+    background-color: #0d6926;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #Contact .container {
+        padding: 15px;
+    }
+    #Contact form input[type="text"],
+    #Contact form input[type="email"],
+    #Contact form textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+#TravellingResources{
+    background-image:url('https://media.istockphoto.com/id/472336288/photo/out-of-focus-office-open-corridor-background.jpg?s=2048x2048&w=is&k=20&c=iCmgct0s82YmQJna7ppHR5PopSKvAbDoPG2HwBm1P3w=');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Destination section */
+#Destination {
+    background-image: url('img/Home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust to cover or contain as needed */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#Destination h1 {
+    font-size: 3em;
+}
+
+/* Sections within Destination */
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Highlights section */
+.highlights {
+    list-style-type: none;
+    padding: 0;
+}
+
+.highlights li {
+    margin-bottom: 10px;
+}
+
+/* Top Attractions section */
+.attractions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.attraction {
+    flex: 1 1 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.attraction img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Accommodation Options section */
+.accommodations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.accommodations2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top:100px;
+}
+
+.accommodation1 {
+    height: 300px;
+    flex: 1 1 300px;
+    background-image: url('img/hotel.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 20px;
+}
+.accommodation2 {
+    height:300px;
+    flex: 1 1 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/06/14/21/15/bedroom-3475656_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 20px;
+}
+.accommodation3 {
+    height:300px;
+    flex: 1 1 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2019/07/25/09/38/train-4362166_640.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+   
+}
+.accommodation4 {
+    height:300px;
+    flex: 1 1 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2020/03/13/08/34/south-station-4927286_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+   
+}
+
+.accommodation1 img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.Text{
+    background-color: rgb(15, 181, 40);
+
+}
+.let{
+
+    width:100%;
+    text-align: center;
+}
+.let-p{
+    font-size: 44px;
+    font-weight: bold;
+}
+.let-p1{
+    font-weight: bold;
+}
+.box{
+    width:100%;
+}
+.box123{
+    width:100%;
+    display:flex;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.box1{
+    width:400px;
+    height:250px;
+    border:3px solid black;
+    box-shadow:0cqmax;
+    background-image: url('img/hillstation.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.box2{
+    width:400px;
+    height:250px;
+    border:3px  solid black;
+    margin-left: 50px;
+    background-image: url('img/historic.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.box3{
+    width:400px;
+    height:250px;
+    border:3px solid black;
+    margin-left: 50px;
+    background-image: url('img/places.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.boxp1{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    
+    margin-top: 280px;
+}
+.boxp2{
+    font-size: x-large;
+    color: black;
+    
+    padding-top: 50px;
+}
+.box456{
+    width:100%;
+    display:flex;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.box4{
+    width:400px;
+    height:250px;
+    border:3px solid black;
+    background-image: url('img/islands.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.box5{
+    width:400px;
+    height:250px;
+    border:3px solid black;
+    margin-left: 50px;
+    background-image: url('img/places2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.box6{
+    width:400px;
+    height:250px;
+    border:3px solid black;
+    margin-left: 50px;
+    background-image: url('img/Holy.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.box789{
+    width:100%;
+    display:flex;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.box7{
+    width:350px;
+    height:200px;
+    border:3px solid black;
+    
+}
+.box8{
+    width:350px;
+    height:200px;
+    border:3px solid black;
+    margin-left: 50px;
+}
+.box9{
+    width:350px;
+    height:200px;
+    border:3px solid black;
+    margin-left: 50px;
+}
+
+
+
